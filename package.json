@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "firebase:start": "firebase emulators:start",
+    "firebase:deploy": "firebase deploy"
   },
   "dependencies": {
     "graphql": "^15.5.1",
