@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "firebase:start": "firebase emulators:start",
+    "firebase:build": "npm --prefix functions run build",
+    "firebase:start": "npm run firebase:build & firebase emulators:start",
     "firebase:deploy": "firebase deploy"
   },
   "dependencies": {
